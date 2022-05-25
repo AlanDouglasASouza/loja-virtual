@@ -95,3 +95,20 @@
 .old-price {
     text-decoration: line-through;
 }
+
+@media(max-width: 800px) {
+    .container-sale-off {
+        height: auto;
+    }
+    .sale-off-bags {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    #title-sale-off {
+        height: 50vw;
+    }
+    #title-sale-off h1 {
+        font-size: 12vw;
+    }
+
+}

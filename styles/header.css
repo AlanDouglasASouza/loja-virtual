@@ -26,6 +26,15 @@ a {
     color: #ffffff;
 }
 
+#icon-menu {
+    display: none;
+    position: absolute;
+    left: 80%;
+    bottom: 35%;
+    width: 40px;
+
+}
+
 .box-header-left span {
     color: #A29C9C;
 }
@@ -47,4 +56,17 @@ a {
 
 #icon-car {
     width: 30px;
+}
+
+@media(max-width: 800px) {
+    .top-header {
+        position: absolute;
+        background-color: black;
+    }
+    .box-header-right {
+        display: none;
+    }
+    #icon-menu {
+        display: block;
+    }
 }
