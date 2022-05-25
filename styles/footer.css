@@ -13,3 +13,15 @@
     color: #A19B9B;
     font-size: 13pt;
 }
+
+@media(max-width: 800px) {
+    .footer-page {
+        height: auto;
+    }
+
+    #box-footer {
+        width: 95%;
+        padding: 20px;
+        font-size: 4vw;
+    }
+}

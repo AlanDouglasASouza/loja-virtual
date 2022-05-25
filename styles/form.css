@@ -87,3 +87,33 @@
     font-size: 13pt;
     color: #ffffff;    
 }
+
+@media(max-width: 800px) {
+    .box-form {
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .container-form {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #box-form-left {
+        width: 100%;
+    }
+    #box-form-left form {
+        padding: 50px;        
+    }
+    #abstract-contact {
+        height: auto;
+        width: 100%;
+        padding: 50px;
+        margin-top: 0;
+    }
+    #contact-form {
+        height: auto;
+    }
+    #abstract-contact h1 {
+        font-size: 12vw;
+    }
+}

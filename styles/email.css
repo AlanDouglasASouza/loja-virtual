@@ -59,3 +59,31 @@
     color: #ffffff;
     font-size: 14pt;
 }
+
+@media(max-width: 800px) {
+    .container-email {
+        height: auto;
+    }
+    #box-email-top {
+        height: auto;
+        padding: 20px;
+    }
+    #desc-email h1 {
+        font-size: 8vw;
+        line-height: 50px;
+    }
+    #desc-email p {
+        font-size: 4vw;
+    }
+    #box-email-down {
+        height: auto;
+        padding: 20px;
+    }
+    #input-email {
+        width: 75%;
+    }
+    #bt-email {
+        width: 25%;
+        font-size: 4vw;
+    }
+}

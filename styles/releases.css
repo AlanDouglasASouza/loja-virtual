@@ -35,3 +35,19 @@
     background-size: cover;
     background-position: center;
 }
+
+@media(max-width: 800px) {
+    #box-releases-left {
+        width: 100%;
+        height: 80vh;
+        font-size: 8vw;
+    }
+    .container-releases {
+        height: auto;
+    }
+    #box-releases-right {
+        width: 100%;
+        height: 100vw;
+        background-size: 100vw;
+    }
+}

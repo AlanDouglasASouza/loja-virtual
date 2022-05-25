@@ -73,3 +73,25 @@ body {
 #icon-chat {
     width: 30px;
 }
+
+@media(max-width: 800px) {
+    body {
+        background-image: none;
+        background-color: black;
+    }
+    .container {
+        background-image: url('../assets/background-loja-virtual.png');
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        background-position: center;
+        height: 80vh;
+    }
+    #chat, #container-social-media {
+        display: none;
+    }
+    #title-index {
+        font-size: 10vw;
+        padding-top: 0;
+    }
+    
+}
