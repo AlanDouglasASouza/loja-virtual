@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'Neuzeit Grotesk Std Light';
-    src: url(/assets/fonts/DINNeuzeitGroteskStd-Light.otf);
+    src: url('../assets/fonts/DINNeuzeitGroteskStd-Light.otf');
 }
 
 body {
     height: 100vh;    
-    background-image: url(/assets/background-loja-virtual.png);
+    background-image: url('../assets/background-loja-virtual.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Neuzeit Grotesk Std Light';    

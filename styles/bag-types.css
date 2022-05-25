@@ -32,13 +32,13 @@
 }
 
 #bag-type-normal {   
-    background-image: url(/assets/normal-bag.png);   
+    background-image: url('../assets/normal-bag.png');   
 }
 
 #bag-type-changes{   
-    background-image: url(/assets/charge-bag.png);   
+    background-image: url('../assets/charge-bag.png');   
 }
 
 #bag-type-travel {    
-    background-image: url(/assets/travel-bag.png);    
+    background-image: url('../assets/travel-bag.png');    
 }
